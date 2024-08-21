@@ -1,7 +1,10 @@
-import cookieParser from "cookie-parser";
-import dotenv from "dotenv";
 import express from "express";
-import router from "./routes";
+import mongoose from "mongoose";
+import dotenv from "dotenv";
+import cookieParser from "cookie-parser";
+import cors from "cors";
+
+import router from "./routes/index.js";
 
 dotenv.config();
 
